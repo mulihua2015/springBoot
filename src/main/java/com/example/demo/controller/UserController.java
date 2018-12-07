@@ -15,4 +15,9 @@ public class UserController {
     public String query(){
         return "query";
     }
+
+    @RequestMapping("/delete")
+    public String delete(){
+        return "delete";
+    }
 }
