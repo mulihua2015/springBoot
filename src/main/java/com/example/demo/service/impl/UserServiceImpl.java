@@ -23,4 +23,9 @@ public class UserServiceImpl implements UserService {
     public String masterById() {
         return null;
     }
+
+    @Override
+    public String dev() {
+        return null;
+    }
 }
