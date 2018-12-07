@@ -11,14 +11,16 @@ public class UserController {
         return "test";
     }
 
-    @RequestMapping("/delete")
-    public String delete(){
-        return "delete";
-    }
 
     @RequestMapping("/query")
     public String query(){
         return "query";
     }
+
+    @RequestMapping("/delete")
+    public String delete(){
+        return "delete2";
+    }
+
 
 }
