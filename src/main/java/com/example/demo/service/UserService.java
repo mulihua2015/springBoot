@@ -8,6 +8,4 @@ public interface UserService {
     public String queryById();
     public String masterById();
 
-
-    public String dev();
 }

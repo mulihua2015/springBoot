@@ -16,9 +16,4 @@ public class UserController {
         return "master";
     }
 
-    @RequestMapping("/dev")
-    public String dev(){
-        return "dev";
-    }
-
 }
