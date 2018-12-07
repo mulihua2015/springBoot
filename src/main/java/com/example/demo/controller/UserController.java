@@ -26,4 +26,9 @@ public class UserController {
         return "masterUpdate";
     }
 
+    @RequestMapping("/mastered")
+    public String mastered(){
+        return "mastered";
+    }
+
 }

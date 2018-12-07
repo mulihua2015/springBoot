@@ -12,4 +12,5 @@ public interface UserService {
 
     public String masterUpdate();
 
+    public String mastered();
 }
