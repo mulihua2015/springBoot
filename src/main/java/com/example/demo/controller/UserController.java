@@ -11,6 +11,7 @@ public class UserController {
         return "test";
     }
 
+
     @RequestMapping("/query")
     public String query(){
         return "query";
@@ -18,6 +19,8 @@ public class UserController {
 
     @RequestMapping("/delete")
     public String delete(){
-        return "delete";
+        return "delete2";
     }
+
+
 }
