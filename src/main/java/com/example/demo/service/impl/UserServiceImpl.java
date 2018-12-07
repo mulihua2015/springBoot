@@ -10,7 +10,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public String getUserInfo2() {
+    public String getUserInfo() {
         return null;
     }
 
