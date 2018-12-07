@@ -5,7 +5,7 @@ import com.example.demo.service.UserService;
 public class UserServiceImpl implements UserService {
 
     @Override
-    public String deleteById() {
+    public String deleteById(String id) {
         return null;
     }
 
@@ -14,5 +14,8 @@ public class UserServiceImpl implements UserService {
         return null;
     }
 
-
+    @Override
+    public String queryById() {
+        return null;
+    }
 }
