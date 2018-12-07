@@ -28,4 +28,8 @@ public class UserServiceImpl implements UserService {
     public String devById() {
         return null;
     }
+
+    public String masterUpdate(){
+        return null;
+    }
 }
