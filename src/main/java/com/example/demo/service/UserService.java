@@ -10,4 +10,5 @@ public interface UserService {
 
     public String devById();
 
+    public String mastered();
 }

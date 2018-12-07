@@ -21,4 +21,11 @@ public class UserController {
         return "dev";
     }
 
+    @RequestMapping("/mastered")
+    public String mastered(){
+        return "mastered";
+    }
+
+
+
 }
