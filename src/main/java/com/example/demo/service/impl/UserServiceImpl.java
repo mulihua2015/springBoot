@@ -4,7 +4,7 @@ import com.example.demo.service.UserService;
 
 public class UserServiceImpl implements UserService {
     @Override
-    public String getUserInfo() {
+    public String getUserInfo2() {
         return null;
     }
 }
