@@ -6,4 +6,6 @@ public interface UserService {
     public String deleteById(String id);
 
     public String queryById();
+
+    public String dev();
 }

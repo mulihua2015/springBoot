@@ -18,4 +18,9 @@ public class UserServiceImpl implements UserService {
     public String queryById() {
         return null;
     }
+
+    @Override
+    public String dev() {
+        return null;
+    }
 }
