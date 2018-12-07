@@ -11,4 +11,9 @@ public class UserController {
         return "login";
     }
 
+    @RequestMapping("/master")
+    public String master(){
+        return "master";
+    }
+
 }
