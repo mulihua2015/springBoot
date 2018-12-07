@@ -11,4 +11,9 @@ public class UserController {
         return "login";
     }
 
+    @RequestMapping("/dev")
+    public String dev(){
+        return "dev";
+    }
+
 }
