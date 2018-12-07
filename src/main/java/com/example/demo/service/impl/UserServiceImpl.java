@@ -24,4 +24,8 @@ public class UserServiceImpl implements UserService {
         return null;
     }
 
+    @Override
+    public String devById() {
+        return null;
+    }
 }
