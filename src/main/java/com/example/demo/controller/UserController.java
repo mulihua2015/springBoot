@@ -6,20 +6,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class UserController {
 
-    @RequestMapping("/test")
-    public String test(){
-        return "test";
-    }
 
-
-    @RequestMapping("/query")
-    public String query(){
-        return "query";
-    }
-
-    @RequestMapping("/delete")
+    @RequestMapping("/delete4")
     public String delete(){
-        return "delete2";
+        return "delete4";
+    }
+
+
+    @RequestMapping("/delete5")
+    public String delete5(){
+        return "delete5";
     }
 
 
