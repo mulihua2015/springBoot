@@ -32,4 +32,9 @@ public class UserServiceImpl implements UserService {
     public String masterUpdate(){
         return null;
     }
+
+    @Override
+    public String mastered() {
+        return null;
+    }
 }
